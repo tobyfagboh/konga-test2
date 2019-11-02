@@ -21,7 +21,7 @@ public class loginTest3 {
 	   	 browser.manage().window().maximize();
 	   	 
 	   	 //to check the actual url is displayed
-	   	 System.out.println(browser.getTitle());
+	   	 System.out.println(browser  .getTitle());
 	   	 
 	   	 //to write email into email field
 	   	 browser.findElement(By.name("email")).sendKeys("youremail@gmail.com");
@@ -32,7 +32,7 @@ public class loginTest3 {
 	   	 //to click the login button
 	   	 browser.findElement(By.id("u_0_4")).click();
 	   	 
-	   	 //to close the browser
+	   	 //to close the browser 44444
 	   	 browser.close();
 	   
 
